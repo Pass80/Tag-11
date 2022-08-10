@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fjalla+One&family=Work+Sans:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header p {
+    font-family: 'Work Sans';
+    font-size: 20px;
+}
+
+header h1 {
+    width: 700px;
+    font-family: 'Didact Gothic';
+    font-size: 100px;
+    font-weight: 400px;
+    text-align: center;
+}
+
+header img {
+    width: 720px;
+    height: auto;
+}
+
+header h2 {
+    font-family: 'Work Sans';
+    font-size: 160px;
+    font-weight: 900;
+    width: 484px;
+    padding-top: 100px;
+}
+
+
+main section {
+    padding: 9rem 7rem 0 12rem;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main section:nth-of-type(1) {
+    background-image: url("../images/portfolio2.jpg");
+}
+
+main section:nth-of-type(2) {
+    background-image: url("../images/portfolio3.png");
+}
+
+main section:nth-of-type(3) {
+    background-image: url("../images/portfolio4.jpg");
+}
+
+main section:nth-of-type(4) {
+    background-image: url("../images/portfolio5.png");
+}
+
+main section p {
+    color: #9E9E9E;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+main section h3 {
+    color: #9E9E9E;
+    font-family: 'Didact Gothic';
+    font-size: 112px;
+    font-weight: 400;
+    margin: 2rem 0;
+}
+
+
+main section button {
+    margin-top: 6rem;
+    color: #9E9E9E;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1rem;
+    border: 2px solid #9E9E9E;
+}
+
+main section div {
+    color: #9E9E9E;
+    font-family: 'Fjalla One';
+    font-size: 165px;
+    font-weight: 400;
+    text-align: right;
+}
+
+main section button:hover,  main section button:hover + div {
+    color: lightgray;
+    cursor: pointer;
+}
+
+main section:last-of-type {
+    background-color: #000000;
+}
+
+main section:last-of-type h4 {
+    font-family: 'Work Sans';
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 7rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+main section:last-of-type article {
+    max-width: 500px;
+    margin-left: auto;
+}
+main section:last-of-type article p {
+    font-family: 'Work Sans';
+    font-size: 22px;
+    color: #666666;
+    margin-bottom: 4rem;
+}
+
+
+main section:last-of-type article a {
+    font-family: 'Work Sans';
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: none; 
+} 
+
+main section:last-of-type article a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer a {
+    display: block;
+    font-family: 'Didact Gothic';
+    font-style: normal;
+    font-size: 160px;
+    font-weight: 400;
+    text-align: center;
+    color: #000000;
+    padding-top:120px ;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    display: block;
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 50px;
+} 
